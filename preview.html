@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design · Momento</title>
+<meta name="description" content="A closer look at one Momento card design, with what's included and what it costs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Serif+Display&family=Great+Vibes&family=Outfit:wght@300;400;500;600;700&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">Momento<span class="brand-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="gallery.html">Designs</a></li>
+      <li><a href="index.html#how">How it works</a></li>
+      <li><a href="index.html#craft">The Craft</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a class="btn btn-luxury" href="order.html">Order a card</a></li>
+    </ul>
+    <button class="nav-toggle" type="button" aria-label="Menu"></button>
+  </div>
+</header>
+
+<main class="section wrap preview">
+
+  <div class="preview-layout">
+
+    <div class="preview-stage-wrap">
+      <div class="preview-stage"></div>
+      <div class="card-page-tabs" aria-label="Card story pages">
+        <button type="button" class="btn-card-page is-active" data-page="0">Cover</button>
+        <button type="button" class="btn-card-page" data-page="1">Inside</button>
+        <button type="button" class="btn-card-page" data-page="2">Back</button>
+      </div>
+    </div>
+
+    <div class="preview-details">
+      <p class="preview-occasion"></p>
+      <h1 class="preview-name"></h1>
+      <p class="preview-desc"></p>
+      <ul class="preview-tags"></ul>
+
+      <div class="preview-contact-banner">
+        <span>💬 Want your own words on this card? <a href="index.html#live-preview">DM us for a live preview &rarr;</a></span>
+      </div>
+
+      <div class="customizer-box">
+        <div class="customizer-head">
+          <h3>Live Customizer Sandbox</h3>
+          <span class="customizer-badge">Real-time Preview</span>
+        </div>
+        <p class="customizer-sub">Type your details or switch font pairings below to preview your bespoke card:</p>
+        
+        <div class="customizer-fields">
+          <div class="field">
+            <label>Typography Style</label>
+            <div class="font-pairs-select">
+              <button type="button" class="btn-font-option is-active" data-font-display="'Pinyon Script', cursive" data-font-body="'Cormorant Garamond', serif">Calligraphy</button>
+              <button type="button" class="btn-font-option" data-font-display="'Cinzel', serif" data-font-body="'Cormorant Garamond', serif">Imperial Serif</button>
+              <button type="button" class="btn-font-option" data-font-display="'Playfair Display', serif" data-font-body="'Plus Jakarta Sans', sans-serif">Modern Luxe</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="c-eyebrow">Top Eyebrow / Tagline</label>
+            <input type="text" id="c-eyebrow" placeholder="Five years of us">
+          </div>
+          <div class="field">
+            <label for="c-title">Main Names / Title</label>
+            <input type="text" id="c-title" placeholder="Maya & Rohan">
+          </div>
+          <div class="field">
+            <label for="c-sub">Subtitle Quote</label>
+            <input type="text" id="c-sub" placeholder="still choosing each other">
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="c-date">Date Line</label>
+              <input type="text" id="c-date" placeholder="14 · 02 · 2026">
+            </div>
+          </div>
+          <div class="field">
+            <label for="c-note">Bottom Note</label>
+            <input type="text" id="c-note" placeholder="Dinner at the place we had our first, 8pm.">
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-buy">
+        <div class="preview-price-group">
+          <span class="preview-price-label">Finished Card</span>
+          <p class="preview-price"></p>
+        </div>
+        <a class="btn btn-accent btn-lg preview-order" href="order.html">Order this design &rarr;</a>
+      </div>
+
+      <ul class="preview-included">
+        <li>Your exact text hand-set by our typography team</li>
+        <li>High-resolution card photo files (Print & Share ready)</li>
+        <li>First digital proof sent within 48 hours</li>
+        <li>Up to 2 proof revisions included with every order</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <section class="preview-more">
+    <h2>More designs</h2>
+    <div class="preview-more-grid"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div>
+        <a class="brand" href="index.html">Momento<span>.</span></a>
+        <p class="footer-note">Hand-finished digital cards for the moments worth marking properly.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Designs</h3>
+        <ul>
+          <li><a href="gallery.html?o=anniversary">Anniversary</a></li>
+          <li><a href="gallery.html?o=proposal">Proposal</a></li>
+          <li><a href="gallery.html?o=date">Ask Out</a></li>
+          <li><a href="gallery.html?o=memories">Memories</a></li>
+          <li><a href="gallery.html?o=justbecause">Just Because</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Get in touch</h3>
+        <ul>
+          <li><a href="order.html">Place an order</a></li>
+          <li><a data-footer-email href="#"></a></li>
+          <li><a href="index.html#how">How it works</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-base">&copy; 2026 Momento. Hand-finished in Bangladesh.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

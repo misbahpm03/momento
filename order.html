@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Place your order · Momento</title>
+<meta name="description" content="Tell us which design you'd like and what it should say. We'll get back to you within a day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Serif+Display&family=Great+Vibes&family=Outfit:wght@300;400;500;600;700&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">Momento<span class="brand-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="gallery.html">Designs</a></li>
+      <li><a href="index.html#how">How it works</a></li>
+      <li><a href="index.html#craft">The Craft</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a class="btn btn-luxury" href="order.html" aria-current="page">Order a card</a></li>
+    </ul>
+    <button class="nav-toggle" type="button" aria-label="Menu"></button>
+  </div>
+</header>
+
+<main class="section wrap order">
+
+  <div class="section-head">
+    <p class="eyebrow">Atelier Commission</p>
+    <h2>Place your card order</h2>
+    <p class="lede">Fill in your details below. Your card preview updates in real time on the summary card. Proofs are delivered within 48 hours for your review.</p>
+  </div>
+
+  <div class="order-layout">
+
+    <aside class="order-summary">
+      <div class="order-card"></div>
+      <p class="order-name"></p>
+      <p class="order-occasion"></p>
+      <p class="order-price"></p>
+      <small>Includes hand-set text, a proof within 48 hours, 2 proof revisions and high-resolution files.</small>
+    </aside>
+
+    <div>
+      <form class="order-form">
+
+        <div class="field-row">
+          <div class="field">
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone / WhatsApp</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="f-email">Email <span>&mdash; optional</span></label>
+          <input id="f-email" name="email" type="email" autocomplete="email">
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="f-design">Design</label>
+            <select id="f-design" name="design" required></select>
+          </div>
+          <div class="field">
+            <label for="f-occasion">Occasion</label>
+            <select id="f-occasion" name="occasion" required></select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="f-names">Names on the card <span>&mdash; optional</span></label>
+            <input id="f-names" name="names" type="text" placeholder="Maya &amp; Rohan">
+          </div>
+          <div class="field">
+            <label for="f-date">Date to appear <span>&mdash; optional</span></label>
+            <input id="f-date" name="date" type="date">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="f-message">What should it say? <span>&mdash; optional</span></label>
+          <textarea id="f-message" name="message" placeholder="Anything you want on the card, or just tell us about the two of you and we'll suggest something."></textarea>
+        </div>
+
+        <fieldset class="fieldset">
+          <legend>How should we reach you?</legend>
+          <div class="radios">
+            <label><input type="radio" name="contact" value="WhatsApp" checked> WhatsApp</label>
+            <label><input type="radio" name="contact" value="Phone call"> Phone call</label>
+            <label><input type="radio" name="contact" value="Email"> Email</label>
+          </div>
+        </fieldset>
+
+        <div class="order-actions">
+          <button class="btn btn-accent btn-lg" type="submit">Place order</button>
+          <button class="btn btn-wa btn-lg order-wa" type="button">Order on WhatsApp</button>
+          <small>We only use your details to talk to you about this order.</small>
+        </div>
+
+      </form>
+
+      <div class="order-error" hidden>
+        That didn&rsquo;t send &mdash; something went wrong on the way. Try again, or message us on WhatsApp instead.
+      </div>
+
+      <div class="order-done" hidden>
+        <h2>Order received</h2>
+        <p>Thank you. We&rsquo;ll be in touch within a day with your first proof.</p>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div>
+        <a class="brand" href="index.html">Momento<span>.</span></a>
+        <p class="footer-note">Hand-finished digital cards for the moments worth marking properly.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Designs</h3>
+        <ul>
+          <li><a href="gallery.html?o=anniversary">Anniversary</a></li>
+          <li><a href="gallery.html?o=proposal">Proposal</a></li>
+          <li><a href="gallery.html?o=date">Ask Out</a></li>
+          <li><a href="gallery.html?o=memories">Memories</a></li>
+          <li><a href="gallery.html?o=justbecause">Just Because</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Get in touch</h3>
+        <ul>
+          <li><a href="order.html">Place an order</a></li>
+          <li><a data-footer-email href="#"></a></li>
+          <li><a href="index.html#how">How it works</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-base">&copy; 2026 Momento. Hand-finished in Bangladesh.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
